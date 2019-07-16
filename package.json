@@ -4,8 +4,15 @@
   "description": "A bot to return info about a movie",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "movieDb",
+    "webhook",
+    "nodejs",
+    "siddajmera"
+  ],
   "author": "Chinmaya",
   "license": "ISC",
   "dependencies": {
