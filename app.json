@@ -1,7 +1,7 @@
 {
-    "name": "movie_db_webhook",
+    "name": "movie_db_webhookmoviedb-webhook-2019",
     "description": "A very simple webhook that gets you the details of a specified movie.",
-    "repository": "https://github.com/SiddAjmera/WebhookForMovieDB.git",
+    "repository": "https://github.com/ChinmayaNathany/MovieDataBot.git",
     "keywords": [
         "movies",
         "api.ai",
