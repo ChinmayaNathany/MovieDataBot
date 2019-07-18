@@ -28,23 +28,23 @@ server.post('/get-movie-details', (req, res) => {
 
             return res.json({
                 fulfillmentText: dataToSend,
-                fulfillmentMessages:[
-                    {
-                        "card": {
-                            "title": movie.title,
-                            "subtitle": movie.Country,
-                            "imageUri": movie.Poster,
-                            "buttons": [
-                                {
-                                "text": "Buscar informacion",
-                                "postback": 'https://www.google.com/search?q$={encodeURI(movieToSearch)}'
-                                }
-                            ]
+                // fulfillmentMessages:[
+                //     {
+                //         "card": {
+                //             "title": movie.title,
+                //             "subtitle": movie.Country,
+                //             "imageUri": movie.Poster,
+                //             "buttons": [
+                //                 {
+                //                 "text": "Click Here for Movie information",
+                //                 "postback": 'https://www.google.com/search?q$={encodeURI(movieToSearch)}'
+                //                 }
+                //             ]
 
-                        }
-                    }
+                //         }
+                //     }
 
-                ],
+                // ],
 payload: {
     "google": {
         "expectUserResponse": true,
