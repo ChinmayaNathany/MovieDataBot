@@ -37,7 +37,7 @@ server.post('/get-movie-details', (req, res) => {
                             "buttons": [
                                 {
                                 "text": "Click Here for Movie information",
-                                "postback": 'https://www.google.com/search?q$={encodeURI(movieToSearch)}'
+                                "postback": encodeURI(`http://www.google.com/?q=${movieToSearch}&apikey=${API_KEY}`),
                                 }
                             ]
 
